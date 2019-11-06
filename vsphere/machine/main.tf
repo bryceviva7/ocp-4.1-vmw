@@ -21,7 +21,7 @@ resource "vsphere_virtual_machine" "vm" {
   datastore_id     = "${data.vsphere_datastore.datastore.id}"
   num_cpus         = "4"
   memory           = "8192"
-  guest_id         = "other4xLinux64Guest"
+  guest_id         = "other26xLinux64Guest"
   folder           = "${var.folder}"
   enable_disk_uuid = "true"
 
